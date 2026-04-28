@@ -4,19 +4,22 @@
     LAST MODIFIED: APR 25, 2026
 */
 
-.navbar {
+.navbar 
+{
   display: flex;
   align-items: center;
   padding: 10px 20px;
   background-color: #004C46;
 }
 
-.logo img {
+.logo img 
+{
   height: 60px;
   width: auto;
 }
 
-.nav-links {
+.nav-links
+{
   gap: 20px;
   margin-left: auto; 
   display: grid;
@@ -24,8 +27,31 @@
   gap: 10px; /* optional spacing */
 }
 
-.nav-links a {
+.nav-links a 
+{
   color: #FFC72C;
+}
+
+.student_pictures
+{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+  justify-items: center;
+}
+
+.student_pictures li
+{
+  text-align: center;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.student_pictures img
+{
+  width: 100px;
+  height: 100px;
 }
 
 a
